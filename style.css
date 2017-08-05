@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #5f5f5f;
+}
+
+header {
+    width: 100%;
+    padding: 20px 0;
+    text-align: right;
+}
+
+header .logo {
+    float: left;
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+.home-page {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0 60px;
+}
+
+.home-page article {
+    padding: 10% 0;
+    width: 70%;
+}
+
+.home-page h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.home-page h3 {
+    color: #8c8c8c;
+    font-weight:400;
+    font-size: 16px;
+}
+
+.home-page .current-work {
+    font-weight:600;
+}
+
+.hr-line {
+    background: #bbbfc3;
+    margin: 10px 0;
+    height: 1px;
+    width: 100%;
+}
+
+.works {
+    position: relative;
+    width: 100%;
+    padding: 0 60px;
+    text-align: center;
+}
+
+.works h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.works .item {
+    text-align: left;
+    display: inline-block;
+    height: 240px;
+    padding: 20px;
+    width: 32%;
+    margin: 10px 5px;
+    background: #eee;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    padding: 20px 60px;
+    font-size: 15px;
+}
